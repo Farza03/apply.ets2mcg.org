@@ -30,13 +30,13 @@ h2 {
     position: relative;
     user-select: none;
 
-    transition: box-shadow .3s, transform .3s;
+    transition: box-shadow .4s, transform .5s;
     box-shadow: 0 0 15px #000000; 
 }
 
 .cbtn:hover {
     box-shadow: 15px 15px 30px #353535, -10px -10px 20px #aaaaaa;
-    transform: scale(1.2);
+    transform: scale(1.01);
     z-index: 5;
 }
 
