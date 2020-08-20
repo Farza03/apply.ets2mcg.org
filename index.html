@@ -32,9 +32,13 @@
             <span class="countryName" style="color: white;">Other</span>
         </a>
     </div>
-    <div id="mainMenu" style="background-color: #ffc400; left: 0; bottom: 0; width: 100vw; height: fit-content; position: absolute; text-align: center;">
+    <div id="mainMenu" style="background-color: #ffc400; left: 0; bottom: 0; width: 100vw; height: fit-content; position: fixed; text-align: center;">
         <h2 style="padding: 50px;">For more information, please visit our <a style="color: green;" href="https://www.ets2mcg.org">VTC homepage!</a></h2>
     </div>
+    <div style="opacity: 0; height: fit-content; width: 100%; display: block; position: absolute" id="fakeBottomBar"></div>
+    <script>
+        document.getElementById("fakeBottomBar").innerHTML = document.getElementById("mainMenu").innerHTML;
+    </script>
 </body>
 
 </html>
