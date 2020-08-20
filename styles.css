@@ -28,6 +28,7 @@ h2 {
     border-radius: 20px;
     cursor: hand;
     position: relative;
+    user-select: none;
 
     transition: box-shadow .3s, transform .3s;
     box-shadow: 0 0 15px #000000; 
